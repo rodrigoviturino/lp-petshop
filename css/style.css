@@ -1,0 +1,179 @@
+/* Variavel Nativas */
+.cores {
+    --branco: #fff;
+}
+
+
+h1{
+    padding-top: 50px;
+}
+
+.div-principal{
+    margin-top: 20px;
+}
+
+/* Formulario */
+.bg-formulario{
+    background-color: transparent;
+    border: solid 1px var(--branco);
+}
+.bg-formulario input{
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+ 
+}
+
+.bg-formulario ::placeholder{
+    color: #fff;
+}
+
+.bg-formulario select{
+    background-color: transparent !important;
+    color: #fff !important;
+
+}
+
+.btn-enviar{ background-color: transparent; border: solid 2px #fff; color: #fff;}
+.btn-enviar:hover{ background-color:#fff; color: #19b14b !important;}
+
+.btn-whatsapp{ background-color:#28a745; color: #fff;}
+.btn-whatsapp:hover{ background-color: transparent; border: solid 2px #28a745;}
+
+
+#textarea::placeholder{
+    color: #19b14b;
+}
+
+/* Introdução */
+.intro{
+    background: url('../img/bg-01.png')center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+    width: 100%;
+    padding: 100px auto;
+}
+
+.intro-form{
+    padding-top: 20px;
+    border-radius: 5px;
+    border: solid 1px #fff;   
+}
+
+.form-titulo{
+    color: #fff;
+    font-weight: bold;
+}
+.sobre > h2{
+    padding-top: 60px;
+}
+
+/* Serviço Principal */
+.servico-principal{
+    padding: 100px 0 40px 0;
+}
+
+.servico-principal h2{
+    color: #19b14b;
+    font-size: 43px;
+    font-weight: 500px;
+}
+
+
+/* SERVIÇO */
+.servico-h2{
+    color: #19b14b;
+    font-weight: 500;
+}
+
+.servico-h2::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 100px;
+    background-color: #19b14b;
+}
+
+/* Call To Action */
+.cta{
+    background: url('../img/cta.png')center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* background-color: #19b14b; */
+    padding: 70px 0px;
+    margin: 100px 0;
+}
+
+.btn-cta{
+    font-size: 1.5em;
+}
+
+/* SOBRE */
+.sobre-titulo{
+    font-size: 2.7em;
+    color: #19b14b;
+}
+
+.sobre-titulo::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 100px;
+    background-color: #19b14b;
+}
+
+/* Galeria */
+.galeria-titulo{
+    padding: 100px 0 40px 0;
+    color: #19b14b;
+    font-size: 43px;
+    font-weight: 500px;
+}
+
+.galeria-titulo::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 150px;
+    background-color: #19b14b;
+
+}
+
+/* Footer */
+.footer:visited,.footer:active,.footer:link{
+    color: #19b14b;
+    text-decoration: none !important;
+}
+
+.footer{
+    font-size: 1em;
+}
+
+/* Contato */
+.contato-titulo{
+    padding: 100px 0 40px 0;
+    color: #19b14b;
+    font-size: 43px;
+    font-weight: 500px;
+}
+
+
+.contato-subtitulo{
+    font-weight: 300;
+    color: #19b14b;
+}
+
+.contato-subtitulo::after,.contato-titulo::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: #19b14b;
+}
